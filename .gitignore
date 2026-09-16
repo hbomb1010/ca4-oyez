@@ -1,5 +1,5 @@
-# scraped data (large, regenerable -- keep only the sample checked in)
-/data/cases.json
+# scraped data
+# data/cases.json is committed -- it's refreshed by .github/workflows/refresh-data.yml
 /data/files/
 
 # python
@@ -12,3 +12,4 @@ web/node_modules/
 web/.next/
 web/out/
 web/.env*.local
+.DS_Store

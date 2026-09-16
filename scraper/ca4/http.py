@@ -12,10 +12,7 @@ from pathlib import Path
 
 import requests
 
-# TODO: put your own name/contact info here before running this against
-# the live site -- it's normal scraper etiquette so a site admin can reach
-# you if something about your requests is a problem.
-USER_AGENT = "ca4-oyez-research-scraper/0.1 (contact: your-email@example.com)"
+USER_AGENT = "ca4-oyez-podcast-scraper/0.1 (+https://github.com/hbomb1010/ca4-oyez)"
 
 RATE_LIMIT_SECONDS = 2.0
 
