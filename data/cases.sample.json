@@ -1,0 +1,53 @@
+[
+  {
+    "_sample_note": "Synthetic placeholder for frontend dev -- not real scraped data. Run scraper/build_dataset.py to generate the real data/cases.json.",
+    "docket_number": "26-1234",
+    "case_name": "Example Appellant v. Example Appellee",
+    "argument_date": "2026-03-10",
+    "panel": ["J. Harvie Wilkinson III", "James Andrew Wynn", "Nicole G. Berner"],
+    "counsel": ["Jane Advocate", "John Counsel"],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-1234-20260310.mp3",
+    "audio_file": null,
+    "opinion": {
+      "opinion_number": "261234.P",
+      "published": true,
+      "author": "Wynn",
+      "decision": "Affirmed",
+      "case_type": "Civil Private",
+      "appeal_from": "EDVA",
+      "originating_judge": "Smith",
+      "pdf_url": "https://www.ca4.uscourts.gov/opinions/261234.P.pdf",
+      "date_issued": "2026-05-02",
+      "pdf_file": null,
+      "sections": [
+        {
+          "author": "Wynn",
+          "kind": "majority",
+          "text": "Sample majority opinion text would appear here once a real opinion PDF has been parsed by ca4/opinion_pdf.py."
+        },
+        {
+          "author": "Berner",
+          "kind": "dissent",
+          "text": "Sample dissenting opinion text would appear here."
+        }
+      ]
+    },
+    "facts_of_the_case": "One or two paragraphs summarizing the underlying dispute and procedural history, written by hand once this case is picked for the site (see README Phase 4).",
+    "question_presented": "The legal question the panel had to resolve, in a sentence or two.",
+    "conclusion_summary": "A short summary of the panel's holding and reasoning."
+  },
+  {
+    "_sample_note": "Synthetic placeholder -- argued, decision still pending (opinion is null).",
+    "docket_number": "26-5678",
+    "case_name": "US v. Example Defendant",
+    "argument_date": "2026-08-20",
+    "panel": ["Albert Diaz", "Julius N. Richardson", "Henry F. Floyd"],
+    "counsel": ["AUSA Example", "Defense Counsel Example"],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-5678-20260820.mp3",
+    "audio_file": null,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  }
+]

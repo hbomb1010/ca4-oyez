@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6f4ef;
+  --foreground: #1a1a1a;
+  --navy: #0f2350;
+  --navy-light: #1c3a6e;
+  --gold: #c9a544;
+  --red: #8a1f11;
+  --muted: #5b6472;
+  --border: #e3ddcf;
+  --card: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--navy);
+  --color-navy-light: var(--navy-light);
+  --color-gold: var(--gold);
+  --color-red: var(--red);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --font-sans: var(--font-geist-sans), Arial, sans-serif;
+  --font-display: var(--font-source-serif), Georgia, serif;
+}
+
+/* This site intentionally uses a fixed light theme (like the sites it's
+   modeled on) rather than adapting to the OS light/dark preference. */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+a {
+  color: inherit;
+}
