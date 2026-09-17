@@ -102,9 +102,20 @@ validated.
 
 ### Phase 5 — Validate the feed
 **Goal:** catch problems before you waste time on hosting/subscribing.
-- [ ] Run `data/feed.xml` through a free podcast RSS validator (e.g. Cast Feed Validator, or podba.se)
-- [ ] Fix everything it flags as an error (warnings are more optional)
-- [ ] Double-check every episode has a working, direct audio URL (open a couple in a browser — they should start downloading/playing, not show an error page)
+- [x] Run `data/feed.xml` through a free podcast RSS validator (e.g. Cast Feed Validator, or podba.se)
+      — used [Cast Feed Validator](https://www.castfeedvalidator.com/)
+- [x] Fix everything it flags as an error (warnings are more optional)
+      — first pass: 1 warning (missing episode `<link>`) + 1 notice
+      (artwork >500KB) + 1 error (channel website 404, no page existed
+      yet at the Pages root). Fixed all three: added `fe.link()` per
+      episode, recompressed artwork (530KB → 445KB), added
+      `site-stub/index.html`. Second pass: zero errors, zero warnings —
+      only an informational notice that per-episode pages don't exist
+      yet (expected; that's Part 2/Phase 15's job)
+- [x] Double-check every episode has a working, direct audio URL — not
+      re-checked via a browser click, since Phase 1's download already
+      proved this more rigorously (all 20 URLs downloaded successfully
+      with real byte counts recorded, no failures)
 
 **Done when:** the validator reports no errors.
 
