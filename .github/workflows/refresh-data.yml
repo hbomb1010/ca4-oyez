@@ -55,6 +55,7 @@ jobs:
           mkdir -p public
           cp data/feed.xml public/
           cp assets/artwork/cover-1400.jpg public/
+          cp site-stub/index.html public/
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

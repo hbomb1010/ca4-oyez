@@ -81,6 +81,8 @@ def build(cases: list[dict]) -> FeedGenerator:
         fe = fg.add_entry()
         fe.id(case["docket_number"])
         fe.guid(case["docket_number"], permalink=False)
+        # TODO: point at a real per-case page once Part 2's web UI is deployed (Phase 15)
+        fe.link(href=SITE_URL)
         fe.title(episode_title(case))
         fe.description(episode_description(case))
         fe.enclosure(case["audio_url"], str(case["audio_bytes"]), "audio/mpeg")
