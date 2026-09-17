@@ -38,25 +38,33 @@ web UI work happens in this part.
 ### Phase 1 — Baseline check & first real data pull
 **Goal:** confirm what's already built actually works, and get one real
 batch of scraped data on disk.
-- [ ] Put your real name/contact info into `USER_AGENT` in `scraper/ca4/http.py`
-- [ ] `cd scraper && source .venv/bin/activate`
-- [ ] Run `python build_dataset.py --since 2026-01-01 --no-download` (fast, metadata only)
-- [ ] Read the printed summary line — does the "matched to a decided opinion" count look plausible?
-- [ ] Open `data/cases.json` and skim 10 random records for obviously wrong joins (mismatched case names, wrong dates)
-- [ ] Re-run for a **small** recent window (e.g. `--since` two weeks ago), this time *without* `--no-download`, to confirm audio + PDF downloads actually work
-- [ ] Note anything broken as a TODO at the bottom of this file — don't fix scraper bugs yet unless they block reading the data at all
+- [x] Put your real name/contact info into `USER_AGENT` in `scraper/ca4/http.py`
+      (used a generic, non-personal project identifier instead — see commit history)
+- [x] ~~`cd scraper && source .venv/bin/activate`~~ — superseded: runs happen via
+      the `.github/workflows/refresh-data.yml` GitHub Action now, not locally
+      (see "Open TODOs" below for why)
+- [x] Run `python build_dataset.py --since 2026-01-01 --no-download` (fast, metadata only)
+      — 217 arguments, 14 matched to a decided opinion
+- [x] Read the printed summary line — does the "matched to a decided opinion" count look plausible? — yes
+- [x] Open `data/cases.json` and skim 10 random records for obviously wrong joins (mismatched case names, wrong dates) — clean
+- [x] Re-run for a **small** recent window (e.g. `--since` two weeks ago), this time *without* `--no-download`, to confirm audio + PDF downloads actually work
+      — 20 arguments since 2026-09-02, all 20 downloaded audio successfully
+- [x] Note anything broken as a TODO at the bottom of this file — don't fix scraper bugs yet unless they block reading the data at all — nothing broken
 
 **Done when:** `data/cases.json` has real, plausible 2026 case records on your machine.
 
 ### Phase 2 — Decide the show's identity
 **Goal:** make the handful of naming/scope decisions that every later
 phase depends on, before writing code.
-- [ ] Pick a show title (e.g. "Fourth Circuit Oral Arguments")
-- [ ] Write a one-paragraph show description
-- [ ] Pick an episode title format (e.g. `No. 26-1234 — Appellant v. Appellee`)
-- [ ] Pick what goes in an episode's description (docket #, panel, counsel, argument date — pull straight from `cases.json`)
-- [ ] Decide: **private feed you follow by URL**, or do you eventually want it **submitted to Apple's public podcast directory**? (Private is far less work — directory submission needs ownership verification and Apple review. Recommendation: start private; revisit later if you want it discoverable by strangers.)
-- [ ] Write these decisions down in a `docs/podcast-notes.md` file (a few lines is enough)
+- [x] Pick a show title (e.g. "Fourth Circuit Oral Arguments") — "4thCir?Oyez"
+- [x] Write a one-paragraph show description
+- [x] Pick an episode title format (e.g. `No. 26-1234 — Appellant v. Appellee`)
+      — `Appellant v. Appellee (No. 26-1234)`
+- [x] Pick what goes in an episode's description (docket #, panel, counsel, argument date — pull straight from `cases.json`)
+      — all four
+- [x] Decide: **private feed you follow by URL**, or do you eventually want it **submitted to Apple's public podcast directory**? (Private is far less work — directory submission needs ownership verification and Apple review. Recommendation: start private; revisit later if you want it discoverable by strangers.)
+      — private for now
+- [x] Write these decisions down in a `docs/podcast-notes.md` file (a few lines is enough)
 
 **Done when:** the decisions exist in writing. Nothing to run or test yet.
 
@@ -207,4 +215,11 @@ Builds on the existing `web/` scaffold, now with real data behind it.
 
 (Add anything you notice during a phase that isn't worth stopping for right now.)
 
+- Data pulls now run via `.github/workflows/refresh-data.yml` (manual
+  "Run workflow" button on GitHub, not a local terminal command) — pulled
+  Phase 8's automation idea forward early since the user prefers not to
+  use the terminal. Still respects the "don't scrape as an automated
+  Claude action" boundary: it's a human click triggering a job on GitHub's
+  runners, not Claude's own crawler. Revisit Phase 8 to add a schedule
+  (e.g. daily cron trigger) instead of manual-only.
 -
