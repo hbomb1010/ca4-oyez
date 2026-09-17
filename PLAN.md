@@ -72,11 +72,19 @@ phase depends on, before writing code.
 **Goal:** a cover image that meets Apple's spec — Apple Podcasts rejects
 feeds with invalid artwork, so this has to happen before the feed can be
 validated.
-- [ ] Confirm the spec: JPEG or PNG, RGB color space, **square**, between 1400×1400 and 3000×3000 px
-- [ ] Design something simple (Canva, Figma, Keynote/PowerPoint export, or ask Claude to generate a candidate) — a circuit seal motif, scales of justice, or clean typographic cover all work
-- [ ] Export at exactly a valid square size (3000×3000 is the safe max)
-- [ ] Save it as `assets/artwork/cover-3000.jpg` in the repo
-- [ ] Look at it at thumbnail size (shrink it in Preview/a browser) — does it still read clearly small? That's how it'll mostly be seen
+- [x] Confirm the spec: JPEG or PNG, RGB color space, **square**, between 1400×1400 and 3000×3000 px
+- [x] Design something simple — used a real photo of the Lewis F. Powell
+      Jr. U.S. Courthouse (CA4's home in Richmond), user-supplied
+- [x] Export at exactly a valid square size — **1400×1400, not 3000×3000**:
+      the source photo was only 1536×1024, so cropping to a 1024×1024
+      square and upscaling to the 1400 minimum (instead of 3000) keeps
+      the upscale factor small and avoids visible softness
+- [x] Save it as `assets/artwork/cover-1400.jpg` in the repo (renamed
+      from the plan's `cover-3000.jpg` to reflect the actual size)
+- [x] Look at it at thumbnail size — reads well at ~200px (typical
+      podcast-library tile size); degrades to a nonspecific blob at true
+      icon scale (~60px). Accepted as a known tradeoff of photographic
+      artwork vs. a simpler graphic/typographic cover.
 
 **Done when:** you have one artwork file you're happy with, at a valid size.
 
@@ -104,7 +112,7 @@ validated.
 **Goal:** a stable HTTPS URL Apple Podcasts can fetch. (Only the feed
 file + artwork need hosting here — audio still lives on ca4.uscourts.gov.)
 - [ ] Enable GitHub Pages on this repo (simplest option — free, no server to manage), serving a `/docs` folder or a `gh-pages` branch
-- [ ] Copy `data/feed.xml` and `assets/artwork/cover-3000.jpg` into that published folder
+- [ ] Copy `data/feed.xml` and `assets/artwork/cover-1400.jpg` into that published folder
 - [ ] Push, then open the resulting URL in a plain browser tab and confirm it loads
 - [ ] Make sure the `itunes:image` URL inside feed.xml points at the *published* artwork URL, not a local path
 
