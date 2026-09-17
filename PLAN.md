@@ -90,13 +90,13 @@ validated.
 
 ### Phase 4 — Write the feed generator
 **Goal:** a script that turns `data/cases.json` into a valid podcast RSS file.
-- [ ] Add `feedgen` to `scraper/requirements.txt` and install it (much less error-prone than hand-writing podcast XML)
-- [ ] Write `scraper/build_feed.py`: reads `data/cases.json`, writes `data/feed.xml`
-- [ ] Set channel-level fields: title, description, link, language, `itunes:image` (your Phase 3 artwork, hosted — see Phase 6), `itunes:category`, `itunes:explicit`, `itunes:author`
-- [ ] For each case that has audio, add an episode: title, description, enclosure (audio URL, byte length, `audio/mpeg`), a stable `guid` (use the docket number), `pubDate` (argument date)
-- [ ] Decision: enclosures point straight at `ca4.uscourts.gov`'s own mp3 URLs for now (simplest — no re-hosting needed). Revisit in the stretch phases if you want your own copies.
-- [ ] Get each enclosure's byte size — either from the file if you downloaded it in Phase 1, or an HTTP HEAD request otherwise
-- [ ] Run it, open `data/feed.xml`, read through it like a human
+- [x] Add `feedgen` to `scraper/requirements.txt` and install it (much less error-prone than hand-writing podcast XML)
+- [x] Write `scraper/build_feed.py`: reads `data/cases.json`, writes `data/feed.xml`
+- [x] Set channel-level fields: title, description, link, language, `itunes:image` (your Phase 3 artwork, hosted — see Phase 6), `itunes:category`, `itunes:explicit`, `itunes:author`
+- [x] For each case that has audio, add an episode: title, description, enclosure (audio URL, byte length, `audio/mpeg`), a stable `guid` (use the docket number), `pubDate` (argument date)
+- [x] Decision: enclosures point straight at `ca4.uscourts.gov`'s own mp3 URLs for now (simplest — no re-hosting needed). Revisit in the stretch phases if you want your own copies.
+- [x] Get each enclosure's byte size — from the downloaded file (recorded as `audio_bytes` in `cases.json` at download time in `build_dataset.py`). Cases without a downloaded file are simply excluded from the feed rather than doing a separate HTTP HEAD request — simpler, and the Action always downloads anyway.
+- [x] Run it, open `data/feed.xml`, read through it like a human — 20 real episodes, [live here](https://hbomb1010.github.io/ca4-oyez/feed.xml)
 
 **Done when:** `data/feed.xml` exists and looks like a real podcast feed.
 
@@ -111,12 +111,18 @@ validated.
 ### Phase 6 — Host the feed publicly
 **Goal:** a stable HTTPS URL Apple Podcasts can fetch. (Only the feed
 file + artwork need hosting here — audio still lives on ca4.uscourts.gov.)
-- [ ] Enable GitHub Pages on this repo (simplest option — free, no server to manage), serving a `/docs` folder or a `gh-pages` branch
-- [ ] Copy `data/feed.xml` and `assets/artwork/cover-1400.jpg` into that published folder
-- [ ] Push, then open the resulting URL in a plain browser tab and confirm it loads
-- [ ] Make sure the `itunes:image` URL inside feed.xml points at the *published* artwork URL, not a local path
+- [x] Enable GitHub Pages on this repo (simplest option — free, no server to manage), serving a `/docs` folder or a `gh-pages` branch
+      — used `gh-pages` branch (the repo's own `/docs` was already taken
+      by `podcast-notes.md`); required making the repo public first,
+      since Pages on a private repo needs a paid GitHub plan and a feed
+      URL has to be fetchable by any podcast app anyway
+- [x] Copy `data/feed.xml` and `assets/artwork/cover-1400.jpg` into that published folder
+      — done by the `refresh-data.yml` Action (`peaceiris/actions-gh-pages`), not a manual push
+- [x] Push, then open the resulting URL in a plain browser tab and confirm it loads — confirmed
+- [x] Make sure the `itunes:image` URL inside feed.xml points at the *published* artwork URL, not a local path — yes, `https://hbomb1010.github.io/ca4-oyez/cover-1400.jpg`
 
 **Done when:** you have a real public URL like `https://<you>.github.io/ca4-oyez/feed.xml` that loads in a browser.
+**→ Live at https://hbomb1010.github.io/ca4-oyez/feed.xml**
 
 ### Phase 7 — Subscribe in Apple Podcasts
 **Goal:** the actual payoff moment for Part 1.
