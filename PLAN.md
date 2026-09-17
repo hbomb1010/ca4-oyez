@@ -6,24 +6,36 @@ someone who isn't an experienced developer. Do them in order — later
 phases assume earlier ones are done. Check boxes off as you go; re-run
 `git log` / re-read this file any time you need to remember where you are.
 
-## Current status (as of this plan)
+## Current status (as of end of day, 2026-09-16)
 
-Already built, in this repo:
-- `scraper/` — Python tooling that can pull CA4's oral argument table and
-  opinions listing, join them, and download audio/PDFs. **Not yet run for
-  real** — only a hand-written sample dataset exists so far
-  (`data/cases.sample.json`).
-- `web/` — a Next.js site styled after Oyez (case list + case detail page
-  with audio player), currently reading the sample data. Builds and runs
-  successfully.
-- One git commit. No feed, no artwork, no deployment, no judge pages yet.
+**Part 1 (Phases 1–6) is done. Start tomorrow at Phase 7.**
+
+- Repo is public: https://github.com/hbomb1010/ca4-oyez
+- Live feed: https://hbomb1010.github.io/ca4-oyez/feed.xml (20 real
+  episodes, validated, zero errors/warnings)
+- Live placeholder site: https://hbomb1010.github.io/ca4-oyez/
+- Data pulls run via GitHub Actions (`.github/workflows/refresh-data.yml`),
+  triggered manually from the repo's **Actions** tab → "Refresh CA4 case
+  data" → "Run workflow" — no terminal needed. It downloads audio/PDFs,
+  rebuilds `data/cases.json` and `data/feed.xml`, commits both, and
+  republishes GitHub Pages, all in one click.
+- Show identity decisions are in `docs/podcast-notes.md`.
+- Artwork is `assets/artwork/cover-1400.jpg` (a courthouse photo).
+
+**Tomorrow: Phase 7** — subscribe to the live feed URL above in Apple
+Podcasts (see the bottom of `docs/session-2026-09-16-recap.md` for the
+exact steps), then Phase 8 (put the Action on a schedule instead of
+manual-only).
 
 Two standing constraints from earlier research, still true for every
 phase below:
-- **ca4.uscourts.gov's `robots.txt` disallows Claude's own crawlers.** Any
-  scraping of that site happens from scripts *you* run yourself, not as
-  an automated Claude action. Claude can keep writing/debugging the
-  scraper code.
+- **ca4.uscourts.gov's `robots.txt` disallows Claude's own crawlers.**
+  Claude never makes requests to that site directly (no scraper runs via
+  Claude's own terminal or browser tools). In practice this became: the
+  scraper runs inside the GitHub Action instead, and *you* trigger each
+  run with a click in the Actions tab. That still counts as a
+  human-directed run, not an automated Claude action — see the recap doc
+  for why that distinction matters.
 - **No party briefs or official transcripts exist for free** from CA4.
   Those stay out of scope until the stretch phases at the end, if ever.
 
@@ -247,4 +259,15 @@ Builds on the existing `web/` scaffold, now with real data behind it.
   Claude action" boundary: it's a human click triggering a job on GitHub's
   runners, not Claude's own crawler. Revisit Phase 8 to add a schedule
   (e.g. daily cron trigger) instead of manual-only.
+- **Not now, but wanted:** in addition to each attorney's name (already
+  pulled from CA4's oral argument table into the `counsel` field), scrape
+  the web to also find their **law firm**. CA4's table itself doesn't
+  list firms, so this would be a second, separate lookup per attorney
+  name — likely against a state bar directory or firm website search —
+  and needs real thought before building: attorney names aren't unique
+  (collisions), firms change over time, and it's a different site (or
+  several) than ca4.uscourts.gov, so the robots.txt/politeness research
+  done for CA4 doesn't automatically carry over and would need repeating
+  for whatever source is chosen. Good candidate for a Phase 13-adjacent
+  stretch phase once the core feed/site are solid.
 -
