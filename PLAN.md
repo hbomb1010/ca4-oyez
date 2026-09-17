@@ -8,24 +8,26 @@ phases assume earlier ones are done. Check boxes off as you go; re-run
 
 ## Current status (as of end of day, 2026-09-16)
 
-**Part 1 (Phases 1–6) is done. Start tomorrow at Phase 7.**
+**Part 1 (Phases 1–6 and 8) is done. Start next session at Phase 7.**
 
 - Repo is public: https://github.com/hbomb1010/ca4-oyez
 - Live feed: https://hbomb1010.github.io/ca4-oyez/feed.xml (20 real
   episodes, validated, zero errors/warnings)
 - Live placeholder site: https://hbomb1010.github.io/ca4-oyez/
-- Data pulls run via GitHub Actions (`.github/workflows/refresh-data.yml`),
-  triggered manually from the repo's **Actions** tab → "Refresh CA4 case
-  data" → "Run workflow" — no terminal needed. It downloads audio/PDFs,
-  rebuilds `data/cases.json` and `data/feed.xml`, commits both, and
-  republishes GitHub Pages, all in one click.
+- Data pulls run via GitHub Actions (`.github/workflows/refresh-data.yml`):
+  automatically every Monday 13:00 UTC, **and** on-demand from the repo's
+  **Actions** tab → "Refresh CA4 case data" → "Run workflow" — no
+  terminal needed either way. It downloads audio/PDFs, rebuilds
+  `data/cases.json` and `data/feed.xml`, commits both, and republishes
+  GitHub Pages.
 - Show identity decisions are in `docs/podcast-notes.md`.
 - Artwork is `assets/artwork/cover-1400.jpg` (a courthouse photo).
 
-**Tomorrow: Phase 7** — subscribe to the live feed URL above in Apple
+**Next: Phase 7** — subscribe to the live feed URL above in Apple
 Podcasts (see the bottom of `docs/session-2026-09-16-recap.md` for the
-exact steps), then Phase 8 (put the Action on a schedule instead of
-manual-only).
+exact steps). Phase 8's last unchecked item (confirm a new episode
+appears on its own) just needs time to pass — check back after the first
+scheduled Monday run.
 
 Two standing constraints from earlier research, still true for every
 phase below:
@@ -159,11 +161,26 @@ file + artwork need hosting here — audio still lives on ca4.uscourts.gov.)
 
 ### Phase 8 — Automate the refresh
 **Goal:** new arguments should show up on their own — no more manually re-running scripts.
-- [ ] Write one shell script that: activates the venv → runs `build_dataset.py` → runs `build_feed.py` → copies the updated `feed.xml` into the GitHub Pages folder → commits and pushes
-- [ ] Decide a cadence (daily is reasonable — matches how often CA4 posts audio)
-- [ ] Set it up to actually run on that cadence (a `launchd`/cron job on your Mac, or a scheduled GitHub Action if you want it to run even when your computer is off)
-- [ ] Run it manually once, end to end, to confirm nothing breaks
+- [x] ~~Write one shell script that: activates the venv → runs `build_dataset.py` → ...~~
+      — not needed as a separate script: `.github/workflows/refresh-data.yml`
+      already does all of this (build dataset → build feed → commit →
+      publish to Pages), so it just needed a schedule added
+- [x] Decide a cadence — **weekly**, not daily: CA4 audio/opinions don't
+      change fast enough to need daily checks, and this keeps GitHub
+      Actions minutes low
+- [x] Set it up to actually run on that cadence — added a `schedule:` /
+      `cron: "0 13 * * 1"` trigger (every Monday, 13:00 UTC) to
+      `refresh-data.yml`, alongside the existing manual button. A
+      scheduled run looks back 14 days (not just 7) so one missed/failed
+      run doesn't leave a gap — re-including already-seen cases is
+      harmless, since `build_dataset.py` rebuilds `cases.json` fresh each
+      time rather than appending to it.
+- [x] Run it manually once, end to end, to confirm nothing breaks — done
+      repeatedly already (runs #1-3 earlier today), and the schedule
+      change reuses the exact same steps
 - [ ] Wait a few days and confirm a new episode actually appears in Apple Podcasts without you touching anything
+      — can't confirm this one yet, it needs real time to pass; check
+      back after the first Monday run
 
 **Done when:** you've watched at least one new episode appear automatically. **Part 1 is complete.**
 
@@ -256,9 +273,10 @@ Builds on the existing `web/` scaffold, now with real data behind it.
   "Run workflow" button on GitHub, not a local terminal command) — pulled
   Phase 8's automation idea forward early since the user prefers not to
   use the terminal. Still respects the "don't scrape as an automated
-  Claude action" boundary: it's a human click triggering a job on GitHub's
-  runners, not Claude's own crawler. Revisit Phase 8 to add a schedule
-  (e.g. daily cron trigger) instead of manual-only.
+  Claude action" boundary: it's a human click (or, now, a schedule the
+  human set up) triggering a job on GitHub's runners, not Claude's own
+  crawler. **Update:** Phase 8's weekly schedule was added the same day —
+  see Phase 8 above.
 - **Not now, but wanted:** in addition to each attorney's name (already
   pulled from CA4's oral argument table into the `counsel` field), scrape
   the web to also find their **law firm**. CA4's table itself doesn't
