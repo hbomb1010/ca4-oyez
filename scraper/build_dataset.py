@@ -68,6 +68,7 @@ def build(since: dt.date, *, download: bool, parse_pdf: bool) -> list[dict]:
             "counsel": arg.counsel,
             "audio_url": arg.audio_url,
             "audio_file": None,
+            "audio_bytes": None,
             "opinion": None,
             # Editorial fields -- no free source for these (see README);
             # fill in by hand later.
@@ -81,6 +82,7 @@ def build(since: dt.date, *, download: bool, parse_pdf: bool) -> list[dict]:
             try:
                 http.download(arg.audio_url, dest)
                 record["audio_file"] = str(dest.relative_to(ROOT))
+                record["audio_bytes"] = dest.stat().st_size
             except Exception as e:  # noqa: BLE001
                 print(f"  WARN: failed to download audio for {arg.docket_number}: {e}", file=sys.stderr)
 
