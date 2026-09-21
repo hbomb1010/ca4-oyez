@@ -1,28 +1,769 @@
 [
   {
-    "docket_number": "25-1464",
-    "case_name": "Felix Mejia-Rodriguez v. Todd Blanche",
-    "argument_date": "2026-09-15",
+    "docket_number": "25-4242",
+    "case_name": "US v. Maximo Zacarias",
+    "argument_date": "2026-09-18",
     "panel": [
-      "J. Harvie Wilkinson III",
-      "James Andrew Wynn",
-      "Nicole G. Berner"
+      "Albert Diaz",
+      "A. Marvin Quattlebaum Jr.",
+      "Toby J. Heytens"
     ],
     "counsel": [
-      "Jennifer Bibby-Gerth",
-      "Anna Juarez"
+      "Robert Hansen",
+      "Jacqueline Bechara"
     ],
-    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1464-20260915.mp3",
-    "audio_file": "data/files/audio/25-1464-20260915.mp3",
-    "audio_bytes": 64505830,
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-4242-20260918.mp3",
+    "audio_file": "data/files/audio/25-4242-20260918.mp3",
+    "audio_bytes": 65488870,
     "opinion": null,
     "facts_of_the_case": null,
     "question_presented": null,
     "conclusion_summary": null
   },
   {
-    "docket_number": "26-4303",
-    "case_name": "In re: Application",
+    "docket_number": "26-1691",
+    "case_name": "Bluestar Operations, LLC v. U. S. Drug Enforcement Administration",
+    "argument_date": "2026-09-18",
+    "panel": [
+      "Albert Diaz",
+      "A. Marvin Quattlebaum Jr.",
+      "Toby J. Heytens"
+    ],
+    "counsel": [
+      "Robert Hoban",
+      "Cynthia Barmore",
+      "David Sergi"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-1691-20260918.mp3",
+    "audio_file": "data/files/audio/26-1691-20260918.mp3",
+    "audio_bytes": 62845069,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "21-4620",
+    "case_name": "US v. Phong Nguyen",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "James Andrew Wynn",
+      "Pamela A. Harris",
+      "DeAndrea Gist Benjamin"
+    ],
+    "counsel": [
+      "Ann Hester",
+      "Anthony Enright"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/21-4620-20260917.mp3",
+    "audio_file": "data/files/audio/21-4620-20260917.mp3",
+    "audio_bytes": 44283214,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "20-1766",
+    "case_name": "Donte Parrish v. US",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "Paul V. Niemeyer",
+      "Roger L. Gregory",
+      "Julius N. Richardson"
+    ],
+    "counsel": [
+      "Alexa Baltes",
+      "William Rhee"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/20-1766-20260917.mp3",
+    "audio_file": "data/files/audio/20-1766-20260917.mp3",
+    "audio_bytes": 51192602,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "23-4723",
+    "case_name": "US v. Antione Sims",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "James Andrew Wynn",
+      "Pamela A. Harris",
+      "DeAndrea Gist Benjamin"
+    ],
+    "counsel": [
+      "Kathleen Gleason",
+      "Karla Painter"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/23-4723-20260917.mp3",
+    "audio_file": "data/files/audio/23-4723-20260917.mp3",
+    "audio_bytes": 37363377,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "24-6050",
+    "case_name": "Gerald Hopper v. Garry McFadden",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "G. Steven Agee",
+      "Stephanie D. Thacker",
+      "Nicole G. Berner"
+    ],
+    "counsel": [
+      "Hongye Zhang",
+      "Kari Swindle",
+      "Philip Mayer"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/24-6050-20260917.mp3",
+    "audio_file": "data/files/audio/24-6050-20260917.mp3",
+    "audio_bytes": 50039557,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1220",
+    "case_name": "Nautilus Insurance Company v. Cory Fleming",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "J. Harvie Wilkinson III",
+      "Robert B. King",
+      "Allison J. Rushing"
+    ],
+    "counsel": [
+      "Jack Reiter",
+      "Harold Kuhn Jr.",
+      "George Walker",
+      "Christy Allen"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1220-20260917.mp3",
+    "audio_file": "data/files/audio/25-1220-20260917.mp3",
+    "audio_bytes": 55655361,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1836",
+    "case_name": "B.R. v. Fairfax County School Board",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "Paul V. Niemeyer",
+      "Roger L. Gregory",
+      "Julius N. Richardson"
+    ],
+    "counsel": [
+      "Benedict Luongo",
+      "Kevin Elliker",
+      "Michael Kinney"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1836-20260917.mp3",
+    "audio_file": "data/files/audio/25-1836-20260917.mp3",
+    "audio_bytes": 53695655,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1858",
+    "case_name": "Marshall Austin v. Charleston Day School",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "J. Harvie Wilkinson III",
+      "Robert B. King",
+      "Allison J. Rushing"
+    ],
+    "counsel": [
+      "Hannah Metcalfe",
+      "Alice Paylor"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1858-20260917.mp3",
+    "audio_file": "data/files/audio/25-1858-20260917.mp3",
+    "audio_bytes": 53110512,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-4230",
+    "case_name": "US v. Idrissa Bagayoko",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "Paul V. Niemeyer",
+      "Roger L. Gregory",
+      "Julius N. Richardson"
+    ],
+    "counsel": [
+      "Jonathan Hettleman",
+      "Mary Jessica Munoz"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-4230-20260917.mp3",
+    "audio_file": "data/files/audio/25-4230-20260917.mp3",
+    "audio_bytes": 62435181,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-4444",
+    "case_name": "US v. Terreance Wilder",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "G. Steven Agee",
+      "Stephanie D. Thacker",
+      "Nicole G. Berner"
+    ],
+    "counsel": [
+      "Lesley Shamblin",
+      "Jonathan Byrne"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-4444-20260917.mp3",
+    "audio_file": "data/files/audio/25-4444-20260917.mp3",
+    "audio_bytes": 37928667,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-4521",
+    "case_name": "US v. Andrew Chafin",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "J. Harvie Wilkinson III",
+      "Robert B. King",
+      "Allison J. Rushing"
+    ],
+    "counsel": [
+      "Salvatore Mancina",
+      "Lauren Beebe"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-4521-20260917.mp3",
+    "audio_file": "data/files/audio/25-4521-20260917.mp3",
+    "audio_bytes": 34037467,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1639",
+    "case_name": "Christine Shaw-Callender v. Commissioner of Social Security",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "Paul V. Niemeyer",
+      "Roger L. Gregory",
+      "Julius N. Richardson"
+    ],
+    "counsel": [
+      "Karl Osterhout",
+      "Kenneth Burden"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1639-20260917.mp3",
+    "audio_file": "data/files/audio/25-1639-20260917.mp3",
+    "audio_bytes": 24585320,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "18-4215",
+    "case_name": "US v. Charles Wright",
+    "argument_date": "2026-09-17",
+    "panel": [
+      "James Andrew Wynn",
+      "Pamela A. Harris",
+      "DeAndrea Gist Benjamin"
+    ],
+    "counsel": [
+      "Joshua Carpenter",
+      "Anthony Enright"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/18-4215-20260917.mp3",
+    "audio_file": "data/files/audio/18-4215-20260917.mp3",
+    "audio_bytes": 43561189,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "21-1509",
+    "case_name": "Jose Polanco-Maderos v. Todd Blanche",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "J. Harvie Wilkinson III",
+      "Pamela A. Harris",
+      "Henry F. Floyd"
+    ],
+    "counsel": [
+      "Abdoul Konare",
+      "Rachel Berman-Vaporis"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/21-1509-20260916.mp3",
+    "audio_file": "data/files/audio/21-1509-20260916.mp3",
+    "audio_bytes": 53433385,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1380",
+    "case_name": "Chantilly Auto Body, Inc. v. Truist Bank",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Allison J. Rushing",
+      "Barbara Milano Keenan",
+      "Susan C. Rodriguez"
+    ],
+    "counsel": [
+      "William Devinney",
+      "Brian Moffet"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1380-20260916.mp3",
+    "audio_file": "data/files/audio/25-1380-20260916.mp3",
+    "audio_bytes": 35609516,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1379",
+    "case_name": "Javier Hernandez Ortiz v. Todd Blanche",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "J. Harvie Wilkinson III",
+      "Pamela A. Harris",
+      "Henry F. Floyd"
+    ],
+    "counsel": [
+      "Melissa Chew",
+      "John Bailey"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1379-20260916.mp3",
+    "audio_file": "data/files/audio/25-1379-20260916.mp3",
+    "audio_bytes": 55119328,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1280",
+    "case_name": "Jenyfer Fajardo-Rivas v. Todd Blanche",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "J. Harvie Wilkinson III",
+      "Pamela A. Harris",
+      "Henry F. Floyd"
+    ],
+    "counsel": [
+      "Margot Kniffin",
+      "Sharon Clay"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1280-20260916.mp3",
+    "audio_file": "data/files/audio/25-1280-20260916.mp3",
+    "audio_bytes": 52757336,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-0004",
+    "case_name": "William Dickerson v. Joel Anderson",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Julius N. Richardson",
+      "Toby J. Heytens",
+      "Nicole G. Berner"
+    ],
+    "counsel": [
+      "David Weiss",
+      "Melody Brown"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-0004-20260916.mp3",
+    "audio_file": "data/files/audio/25-0004-20260916.mp3",
+    "audio_bytes": 82005597,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "24-4536",
+    "case_name": "US v. Myron Henderson",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Allison J. Rushing",
+      "Barbara Milano Keenan",
+      "Susan C. Rodriguez"
+    ],
+    "counsel": [
+      "John Morgan",
+      "Clayton Reid"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/24-4536-20260916.mp3",
+    "audio_file": "data/files/audio/24-4536-20260916.mp3",
+    "audio_bytes": 41423851,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "22-6513",
+    "case_name": "Jeremiah Sweeney v. Damean Stewart",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Roger L. Gregory",
+      "Stephanie D. Thacker",
+      "A. Marvin Quattlebaum Jr."
+    ],
+    "counsel": [
+      "Jackson Skeen",
+      "Andrew DiMiceli"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/22-6513-20260916.mp3",
+    "audio_file": "data/files/audio/22-6513-20260916.mp3",
+    "audio_bytes": 56222218,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "21-2255",
+    "case_name": "E-Liquid Brands, LLC v. FDA",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Allison J. Rushing",
+      "Barbara Milano Keenan",
+      "Susan C. Rodriguez"
+    ],
+    "counsel": [
+      "Eric Heyer",
+      "Joshua Koppel"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/21-2255-20260916.mp3",
+    "audio_file": "data/files/audio/21-2255-20260916.mp3",
+    "audio_bytes": 44923736,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1645",
+    "case_name": "General Cigar Company, Inc. v. Empresa Cubana del Tabaco",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Roger L. Gregory",
+      "Stephanie D. Thacker",
+      "A. Marvin Quattlebaum Jr."
+    ],
+    "counsel": [
+      "Stanley Panikowski",
+      "Michael Krinsky"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1645-20260916.mp3",
+    "audio_file": "data/files/audio/25-1645-20260916.mp3",
+    "audio_bytes": 49378659,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-2061",
+    "case_name": "Bruce Konya v. Lockheed Martin Corporation",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Julius N. Richardson",
+      "Toby J. Heytens",
+      "Nicole G. Berner"
+    ],
+    "counsel": [
+      "Nicole Saharsky",
+      "Edward Wenger",
+      "Aaron Zelinsky"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-2061-20260916.mp3",
+    "audio_file": "data/files/audio/25-2061-20260916.mp3",
+    "audio_bytes": 56153255,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "22-1622",
+    "case_name": "Dewberry Engineers Inc. v. Dewberry Group, Inc.",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Roger L. Gregory",
+      "Stephanie D. Thacker",
+      "A. Marvin Quattlebaum Jr."
+    ],
+    "counsel": [
+      "Jonathan Bond",
+      "Elbert Lin"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/22-1622-20260916.mp3",
+    "audio_file": "data/files/audio/22-1622-20260916.mp3",
+    "audio_bytes": 49041157,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-4469",
+    "case_name": "US v. Jesse Owens",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Albert Diaz",
+      "Paul V. Niemeyer",
+      "DeAndrea Gist Benjamin"
+    ],
+    "counsel": [
+      "Kimberly Albro",
+      "Holly Brown"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-4469-20260916.mp3",
+    "audio_file": "data/files/audio/25-4469-20260916.mp3",
+    "audio_bytes": 31299312,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1925",
+    "case_name": "Yeni Reyes Vasquez v. Todd Blanche",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Roger L. Gregory",
+      "Stephanie D. Thacker",
+      "A. Marvin Quattlebaum Jr."
+    ],
+    "counsel": [
+      "Alaina Taylor",
+      "Matthew George"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1925-20260916.mp3",
+    "audio_file": "data/files/audio/25-1925-20260916.mp3",
+    "audio_bytes": 47859377,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-4511",
+    "case_name": "US v. David Hess",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Robert B. King",
+      "G. Steven Agee",
+      "James Andrew Wynn"
+    ],
+    "counsel": [
+      "Isaac Forman",
+      "Andrew Cogar"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-4511-20260916.mp3",
+    "audio_file": "data/files/audio/25-4511-20260916.mp3",
+    "audio_bytes": 57031491,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1804",
+    "case_name": "Mohammed Basheer v. Todd Blanche",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Julius N. Richardson",
+      "Toby J. Heytens",
+      "Nicole G. Berner"
+    ],
+    "counsel": [
+      "Benjamin Osorio",
+      "Tiberius Davis"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1804-20260916.mp3",
+    "audio_file": "data/files/audio/25-1804-20260916.mp3",
+    "audio_bytes": 51632504,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-4275",
+    "case_name": "US v. Nazeer Vick",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Albert Diaz",
+      "Paul V. Niemeyer",
+      "DeAndrea Gist Benjamin"
+    ],
+    "counsel": [
+      "Margaret Reece",
+      "Jonathan Silberman"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-4275-20260916.mp3",
+    "audio_file": "data/files/audio/25-4275-20260916.mp3",
+    "audio_bytes": 33660259,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-4051",
+    "case_name": "US v. Selah Street",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Allison J. Rushing",
+      "Barbara Milano Keenan",
+      "Susan C. Rodriguez"
+    ],
+    "counsel": [
+      "Snayha Nath",
+      "William Boyle"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-4051-20260916.mp3",
+    "audio_file": "data/files/audio/25-4051-20260916.mp3",
+    "audio_bytes": 62159328,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-2283",
+    "case_name": "United States ex rel. William Coleman v. Anchorage SNF, LLC",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Robert B. King",
+      "G. Steven Agee",
+      "James Andrew Wynn"
+    ],
+    "counsel": [
+      "Evan Bianchi",
+      "Marisa Dorough"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-2283-20260916.mp3",
+    "audio_file": "data/files/audio/25-2283-20260916.mp3",
+    "audio_bytes": 55822544,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-2145",
+    "case_name": "Michael Sheridan v. Ally Financial Incorporated",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Julius N. Richardson",
+      "Toby J. Heytens",
+      "Nicole G. Berner"
+    ],
+    "counsel": [
+      "John Lynch",
+      "Joshua Hammack"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-2145-20260916.mp3",
+    "audio_file": "data/files/audio/25-2145-20260916.mp3",
+    "audio_bytes": 50465353,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-2020",
+    "case_name": "Peter Laurenzano v. Commissioner of Internal Revenue",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Robert B. King",
+      "G. Steven Agee",
+      "James Andrew Wynn"
+    ],
+    "counsel": [
+      "Uriel Hinberg",
+      "Matthew Johnshoy"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-2020-20260916.mp3",
+    "audio_file": "data/files/audio/25-2020-20260916.mp3",
+    "audio_bytes": 51157598,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "26-1545",
+    "case_name": "In re: US",
+    "argument_date": "2026-09-16",
+    "panel": [
+      "Albert Diaz",
+      "Paul V. Niemeyer",
+      "DeAndrea Gist Benjamin"
+    ],
+    "counsel": [
+      "Laura Taylor",
+      "Joshua Carpenter"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-1545-20260916.mp3",
+    "audio_file": "data/files/audio/26-1545-20260916.mp3",
+    "audio_bytes": 73621336,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "26-1079",
+    "case_name": "Sacks Holdings, Inc. v. Grin Natural USA Limited",
+    "argument_date": "2026-09-15",
+    "panel": [
+      "Albert Diaz",
+      "Julius N. Richardson",
+      "Henry F. Floyd"
+    ],
+    "counsel": [
+      "Gayle Elings",
+      "Jacob Wharton"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-1079-20260915.mp3",
+    "audio_file": "data/files/audio/26-1079-20260915.mp3",
+    "audio_bytes": 66261886,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1980",
+    "case_name": "Peerless Indemnity Insurance Company v. Tilma, Inc.",
     "argument_date": "2026-09-15",
     "panel": [
       "J. Harvie Wilkinson III",
@@ -30,12 +771,12 @@
       "Nicole G. Berner"
     ],
     "counsel": [
-      "Ari Holtzblatt",
-      "Joshua Ferrentino"
+      "Christopher Seelie",
+      "Nancy Adams"
     ],
-    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-4303-20260915.mp3",
-    "audio_file": "data/files/audio/26-4303-20260915.mp3",
-    "audio_bytes": 55314908,
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1980-20260915.mp3",
+    "audio_file": "data/files/audio/25-1980-20260915.mp3",
+    "audio_bytes": 56001406,
     "opinion": null,
     "facts_of_the_case": null,
     "question_presented": null,
@@ -57,6 +798,27 @@
     "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/22-2114-20260915.mp3",
     "audio_file": "data/files/audio/22-2114-20260915.mp3",
     "audio_bytes": 51933827,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "24-1048",
+    "case_name": "Edgar Padilla-Chaves v. Todd Blanche",
+    "argument_date": "2026-09-15",
+    "panel": [
+      "Albert Diaz",
+      "Julius N. Richardson",
+      "Henry F. Floyd"
+    ],
+    "counsel": [
+      "Susan Roy",
+      "Tim Ramnitz"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/24-1048-20260915.mp3",
+    "audio_file": "data/files/audio/24-1048-20260915.mp3",
+    "audio_bytes": 42606232,
     "opinion": null,
     "facts_of_the_case": null,
     "question_presented": null,
@@ -86,6 +848,27 @@
     "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/24-1650-20260915.mp3",
     "audio_file": "data/files/audio/24-1650-20260915.mp3",
     "audio_bytes": 193999407,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-1464",
+    "case_name": "Felix Mejia-Rodriguez v. Todd Blanche",
+    "argument_date": "2026-09-15",
+    "panel": [
+      "J. Harvie Wilkinson III",
+      "James Andrew Wynn",
+      "Nicole G. Berner"
+    ],
+    "counsel": [
+      "Jennifer Bibby-Gerth",
+      "Anna Juarez"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1464-20260915.mp3",
+    "audio_file": "data/files/audio/25-1464-20260915.mp3",
+    "audio_bytes": 64505830,
     "opinion": null,
     "facts_of_the_case": null,
     "question_presented": null,
@@ -155,27 +938,6 @@
     "conclusion_summary": null
   },
   {
-    "docket_number": "25-1980",
-    "case_name": "Peerless Indemnity Insurance Company v. Tilma, Inc.",
-    "argument_date": "2026-09-15",
-    "panel": [
-      "J. Harvie Wilkinson III",
-      "James Andrew Wynn",
-      "Nicole G. Berner"
-    ],
-    "counsel": [
-      "Christopher Seelie",
-      "Nancy Adams"
-    ],
-    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1980-20260915.mp3",
-    "audio_file": "data/files/audio/25-1980-20260915.mp3",
-    "audio_bytes": 56001406,
-    "opinion": null,
-    "facts_of_the_case": null,
-    "question_presented": null,
-    "conclusion_summary": null
-  },
-  {
     "docket_number": "25-4023",
     "case_name": "US v. Lucio Garcia",
     "argument_date": "2026-09-15",
@@ -239,6 +1001,48 @@
     "conclusion_summary": null
   },
   {
+    "docket_number": "26-4303",
+    "case_name": "In re: Application",
+    "argument_date": "2026-09-15",
+    "panel": [
+      "J. Harvie Wilkinson III",
+      "James Andrew Wynn",
+      "Nicole G. Berner"
+    ],
+    "counsel": [
+      "Ari Holtzblatt",
+      "Joshua Ferrentino"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-4303-20260915.mp3",
+    "audio_file": "data/files/audio/26-4303-20260915.mp3",
+    "audio_bytes": 55314908,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "26-1000",
+    "case_name": "5th Congressional District Republican Committee v. John O'Bannon",
+    "argument_date": "2026-09-15",
+    "panel": [
+      "A. Marvin Quattlebaum Jr.",
+      "Allison J. Rushing",
+      "DeAndrea Gist Benjamin"
+    ],
+    "counsel": [
+      "Jeffrey Adams",
+      "Daniel Honold"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-1000-20260915.mp3",
+    "audio_file": "data/files/audio/26-1000-20260915.mp3",
+    "audio_bytes": 45595476,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
     "docket_number": "25-4673",
     "case_name": "US v. Letitia James",
     "argument_date": "2026-09-15",
@@ -276,69 +1080,6 @@
     "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-1328-20260915.mp3",
     "audio_file": "data/files/audio/26-1328-20260915.mp3",
     "audio_bytes": 67473758,
-    "opinion": null,
-    "facts_of_the_case": null,
-    "question_presented": null,
-    "conclusion_summary": null
-  },
-  {
-    "docket_number": "26-1000",
-    "case_name": "5th Congressional District Republican Committee v. John O'Bannon",
-    "argument_date": "2026-09-15",
-    "panel": [
-      "A. Marvin Quattlebaum Jr.",
-      "Allison J. Rushing",
-      "DeAndrea Gist Benjamin"
-    ],
-    "counsel": [
-      "Jeffrey Adams",
-      "Daniel Honold"
-    ],
-    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-1000-20260915.mp3",
-    "audio_file": "data/files/audio/26-1000-20260915.mp3",
-    "audio_bytes": 45595476,
-    "opinion": null,
-    "facts_of_the_case": null,
-    "question_presented": null,
-    "conclusion_summary": null
-  },
-  {
-    "docket_number": "24-1048",
-    "case_name": "Edgar Padilla-Chaves v. Todd Blanche",
-    "argument_date": "2026-09-15",
-    "panel": [
-      "Albert Diaz",
-      "Julius N. Richardson",
-      "Henry F. Floyd"
-    ],
-    "counsel": [
-      "Susan Roy",
-      "Tim Ramnitz"
-    ],
-    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/24-1048-20260915.mp3",
-    "audio_file": "data/files/audio/24-1048-20260915.mp3",
-    "audio_bytes": 42606232,
-    "opinion": null,
-    "facts_of_the_case": null,
-    "question_presented": null,
-    "conclusion_summary": null
-  },
-  {
-    "docket_number": "26-1079",
-    "case_name": "Sacks Holdings, Inc. v. Grin Natural USA Limited",
-    "argument_date": "2026-09-15",
-    "panel": [
-      "Albert Diaz",
-      "Julius N. Richardson",
-      "Henry F. Floyd"
-    ],
-    "counsel": [
-      "Gayle Elings",
-      "Jacob Wharton"
-    ],
-    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/26-1079-20260915.mp3",
-    "audio_file": "data/files/audio/26-1079-20260915.mp3",
-    "audio_bytes": 66261886,
     "opinion": null,
     "facts_of_the_case": null,
     "question_presented": null,
