@@ -1169,27 +1169,5 @@
     "facts_of_the_case": null,
     "question_presented": null,
     "conclusion_summary": null
-  },
-  {
-    "docket_number": "25-1797",
-    "case_name": "South Carolina Coastal Conservation League v. United States Army Corps of Engineers",
-    "argument_date": "2026-09-10",
-    "panel": [
-      "G. Steven Agee",
-      "Stephanie D. Thacker",
-      "Nicole G. Berner"
-    ],
-    "counsel": [
-      "Catherine Wannamaker",
-      "Michael DeHart",
-      "Jacob Ecker"
-    ],
-    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-1797-20260910.mp3",
-    "audio_file": "data/files/audio/25-1797-20260910.mp3",
-    "audio_bytes": 60331279,
-    "opinion": null,
-    "facts_of_the_case": null,
-    "question_presented": null,
-    "conclusion_summary": null
   }
 ]
