@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "docket_number": "25-6151",
+    "case_name": "Christopher Hampton v. Jonathan Nance",
+    "argument_date": "2026-10-14",
+    "panel": [
+      "Albert Diaz",
+      "Julius N. Richardson",
+      "A. Marvin Quattlebaum Jr."
+    ],
+    "counsel": [
+      "Kyle Singhal",
+      "Joshua Edwards"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-6151-20261014.mp3",
+    "audio_file": "data/files/audio/25-6151-20261014.mp3",
+    "audio_bytes": 47711776,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-2196",
+    "case_name": "Jack Williams v. Sig Sauer, Inc.",
+    "argument_date": "2026-10-14",
+    "panel": [
+      "Albert Diaz",
+      "Julius N. Richardson",
+      "A. Marvin Quattlebaum Jr."
+    ],
+    "counsel": [
+      "James Hester",
+      "Eric Lasker"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-2196-20261014.mp3",
+    "audio_file": "data/files/audio/25-2196-20261014.mp3",
+    "audio_bytes": 60336736,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  },
+  {
+    "docket_number": "25-6425",
+    "case_name": "Joshua Jeter v. Miguel Cleveland",
+    "argument_date": "2026-10-14",
+    "panel": [
+      "Albert Diaz",
+      "Julius N. Richardson",
+      "A. Marvin Quattlebaum Jr."
+    ],
+    "counsel": [
+      "Carmen Ganjehsani",
+      "John Warren III"
+    ],
+    "audio_url": "https://www.ca4.uscourts.gov/OAarchive/mp3/25-6425-20261014.mp3",
+    "audio_file": "data/files/audio/25-6425-20261014.mp3",
+    "audio_bytes": 52657696,
+    "opinion": null,
+    "facts_of_the_case": null,
+    "question_presented": null,
+    "conclusion_summary": null
+  }
+]
