@@ -1,11 +1,161 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>4thCir?Oyez</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>A running archive of oral arguments before the United States Court of Appeals for the Fourth Circuit -- every argued case, audio straight from the court, with the docket number, panel, counsel, and argument date for each. Not affiliated with the Fourth Circuit or with oyez.org.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://hbomb1010.github.io/ca4-oyez/cover-1400.jpg</url><title>4thCir?Oyez</title><link>https://hbomb1010.github.io/ca4-oyez</link></image><language>en-us</language><lastBuildDate>Mon, 26 Oct 2026 19:00:26 +0000</lastBuildDate><itunes:author>hbomb1010</itunes:author><itunes:category text="Government"/><itunes:image href="https://hbomb1010.github.io/ca4-oyez/cover-1400.jpg"/><itunes:explicit>no</itunes:explicit><item><title>Joshua Jeter v. Miguel Cleveland (No. 25-6425)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-6425
-Argued: 2026-10-14
-Panel: Albert Diaz, Julius N. Richardson, A. Marvin Quattlebaum Jr.
-Counsel: Carmen Ganjehsani, John Warren III</description><guid isPermaLink="false">25-6425</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-6425-20261014.mp3" length="52657696" type="audio/mpeg"/><pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Jack Williams v. Sig Sauer, Inc. (No. 25-2196)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2196
-Argued: 2026-10-14
-Panel: Albert Diaz, Julius N. Richardson, A. Marvin Quattlebaum Jr.
-Counsel: James Hester, Eric Lasker</description><guid isPermaLink="false">25-2196</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2196-20261014.mp3" length="60336736" type="audio/mpeg"/><pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Christopher Hampton v. Jonathan Nance (No. 25-6151)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-6151
-Argued: 2026-10-14
-Panel: Albert Diaz, Julius N. Richardson, A. Marvin Quattlebaum Jr.
-Counsel: Kyle Singhal, Joshua Edwards</description><guid isPermaLink="false">25-6151</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-6151-20261014.mp3" length="47711776" type="audio/mpeg"/><pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>4thCir?Oyez</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>A running archive of oral arguments before the United States Court of Appeals for the Fourth Circuit -- every argued case, audio straight from the court, with the docket number, panel, counsel, and argument date for each. Not affiliated with the Fourth Circuit or with oyez.org.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://hbomb1010.github.io/ca4-oyez/cover-1400.jpg</url><title>4thCir?Oyez</title><link>https://hbomb1010.github.io/ca4-oyez</link></image><language>en-us</language><lastBuildDate>Mon, 02 Nov 2026 22:07:00 +0000</lastBuildDate><itunes:author>hbomb1010</itunes:author><itunes:category text="Government"/><itunes:image href="https://hbomb1010.github.io/ca4-oyez/cover-1400.jpg"/><itunes:explicit>no</itunes:explicit><item><title>US v. Alex Chin (No. 25-4259)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4259
+Argued: 2026-10-27
+Panel: J. Harvie Wilkinson III, Pamela A. Harris, Henry F. Floyd
+Counsel: David Schles, Jennifer Herrald</description><guid isPermaLink="false">25-4259</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4259-20261027.mp3" length="39755149" type="audio/mpeg"/><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Commonwealth of Virginia (No. 26-1874)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 26-1874
+Argued: 2026-10-27
+Panel: Robert B. King, Toby J. Heytens, DeAndrea Gist Benjamin
+Counsel: Tillman Breckenridge, Megan Owen</description><guid isPermaLink="false">26-1874</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/26-1874-20261027.mp3" length="52595377" type="audio/mpeg"/><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>In the Matter of the Search of: Under Seal (No. 25-4496)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4496
+Argued: 2026-10-27
+Panel: A. Marvin Quattlebaum Jr., Barbara Milano Keenan, Deborah L. Boardman
+Counsel: Jonathan Knowles, Jacqueline Bechara</description><guid isPermaLink="false">25-4496</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4496-20261027.mp3" length="47553222" type="audio/mpeg"/><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Daniel International Corporation v. Travelers Indemnity Company (No. 25-2082)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2082
+Argued: 2026-10-27
+Panel: J. Harvie Wilkinson III, Pamela A. Harris, Henry F. Floyd
+Counsel: John Wilson, Michael Scavelli</description><guid isPermaLink="false">25-2082</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2082-20261027.mp3" length="61357369" type="audio/mpeg"/><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>John Doe v. Kash Patel (No. 25-2028)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2028
+Argued: 2026-10-27
+Panel: A. Marvin Quattlebaum Jr., Barbara Milano Keenan, Deborah L. Boardman
+Counsel: Susan Rotkis, Elizabeth Spavins</description><guid isPermaLink="false">25-2028</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2028-20261027.mp3" length="55887328" type="audio/mpeg"/><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>The Summit Church-Homestead Heights Baptist Church v. Chatham County, North Carolina Board of Commis (No. 25-1832)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-1832
+Argued: 2026-10-27
+Panel: A. Marvin Quattlebaum Jr., Barbara Milano Keenan, Deborah L. Boardman
+Counsel: Steven Bader, Elbert Lin, Noah Sacks</description><guid isPermaLink="false">25-1832</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-1832-20261027.mp3" length="55317336" type="audio/mpeg"/><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Research and Manufacturers of America v. John McCuskey (No. 25-1054)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-1054
+Argued: 2026-10-27
+Panel: Diaz, Niemeyer, King, Gregory, Wynn, Thacker, Richardson, Rushing, Heytens, Benjamin, Berner
+Counsel: Michael Williams, Jessica Ellsworth, Maxwell Baldi</description><guid isPermaLink="false">25-1054</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-1054-20261027.mp3" length="76569516" type="audio/mpeg"/><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Ronald Sutherland, Jr. v. State of North Carolina (No. 24-6378)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 24-6378
+Argued: 2026-10-27
+Panel: A. Marvin Quattlebaum Jr., Barbara Milano Keenan, Deborah L. Boardman
+Counsel: Hannah Metcalfe, Caden Hayes</description><guid isPermaLink="false">24-6378</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/24-6378-20261027.mp3" length="52557238" type="audio/mpeg"/><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>AbbVie, Inc. v. Anthony Brown (No. 24-1939)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 24-1939
+Argued: 2026-10-27
+Panel: Diaz, Niemeyer, King, Gregory, Wynn, Thacker, Richardson, Rushing, Heytens, Benjamin, Berner
+Counsel: Erin Murphy, Matthew Owen, Ryan Dietrich</description><guid isPermaLink="false">24-1939</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/24-1939-20261027.mp3" length="97127360" type="audio/mpeg"/><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Maik Ens Loblein v. Roxana Alcaraz de Ens (No. 26-1831)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 26-1831
+Argued: 2026-10-27
+Panel: Pamela A. Harris, Henry F. Floyd, Jasmine Hyejung Yoon
+Counsel: Lewis Powell III, Miriam Fisher</description><guid isPermaLink="false">26-1831</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/26-1831-20261027.mp3" length="49403214" type="audio/mpeg"/><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Cooper Building Services, LLC v. The Town of Middleburg, Virginia (No. 25-2153)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2153
+Argued: 2026-10-28
+Panel: Robert B. King, Julius N. Richardson, Henry F. Floyd
+Counsel: David Wise, Edward Cameron</description><guid isPermaLink="false">25-2153</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2153-20261028.mp3" length="49812814" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Ryan Bieber (No. 25-4686)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4686
+Argued: 2026-10-28
+Panel: Albert Diaz, Roger L. Gregory, DeAndrea Gist Benjamin
+Counsel: Stephanie Kessler, Joseph Capobianco</description><guid isPermaLink="false">25-4686</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4686-20261028.mp3" length="43675606" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Amy Bryant v. Timothy Moore (No. 24-1576)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 24-1576
+Argued: 2026-10-28
+Panel: Robert B. King, Julius N. Richardson, Henry F. Floyd
+Counsel: Erin Hawley, Paul Mezzina, Nicholas Brod</description><guid isPermaLink="false">24-1576</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/24-1576-20261028.mp3" length="53283442" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Darren Beauregard (No. 25-4672)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4672
+Argued: 2026-10-28
+Panel: Paul V. Niemeyer, Pamela A. Harris, A. Marvin Quattlebaum Jr.
+Counsel: Erin Trodden, Jonathan Jones</description><guid isPermaLink="false">25-4672</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4672-20261028.mp3" length="43309369" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>NetChoice v. Jay Jones (No. 26-1252)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 26-1252
+Argued: 2026-10-28
+Panel: J. Harvie Wilkinson III, Roger L. Gregory, DeAndrea Gist Benjamin
+Counsel: Tillman Breckenridge, Erin Murphy</description><guid isPermaLink="false">26-1252</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/26-1252-20261028.mp3" length="66511328" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Robert Scofield (No. 25-4646)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4646
+Argued: 2026-10-28
+Panel: Robert B. King, Julius N. Richardson, Henry F. Floyd
+Counsel: Salvatore Mancina, James Sawyers</description><guid isPermaLink="false">25-4646</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4646-20261028.mp3" length="60835442" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>James Robertson v. The Boeing Company (No. 25-2313)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2313
+Argued: 2026-10-28
+Panel: Stephanie D. Thacker, Allison J. Rushing, Toby J. Heytens
+Counsel: Joseph Wilkinson II, David Schenberg</description><guid isPermaLink="false">25-2313</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2313-20261028.mp3" length="52421402" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Ronald Friedman v. F. Grant (No. 25-2309)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2309
+Argued: 2026-10-28
+Panel: Albert Diaz, Roger L. Gregory, DeAndrea Gist Benjamin
+Counsel: Jonathan Li, Philip Anker</description><guid isPermaLink="false">25-2309</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2309-20261028.mp3" length="51333140" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Ehsan Khan v. Prince William Water (No. 25-2271)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2271
+Argued: 2026-10-28
+Panel: Stephanie D. Thacker, Allison J. Rushing, Toby J. Heytens
+Counsel: Christopher Brown, Hans Riede</description><guid isPermaLink="false">25-2271</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2271-20261028.mp3" length="37093271" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>James Assey v. American Honda Motor Co., Inc. (No. 25-1705)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-1705
+Argued: 2026-10-28
+Panel: J. Harvie Wilkinson III, Nicole G. Berner, Mark S. Davis
+Counsel: Louis Bograd, Abigail Golden</description><guid isPermaLink="false">25-1705</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-1705-20261028.mp3" length="46287328" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Accordius Health at Asheville LLC v. United States Small Business Administration (No. 25-1583)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-1583
+Argued: 2026-10-28
+Panel: J. Harvie Wilkinson III, Nicole G. Berner, Mark S. Davis
+Counsel: Jenny Buchheit, Adam Jed</description><guid isPermaLink="false">25-1583</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-1583-20261028.mp3" length="49482626" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Donald Cantrell (No. 24-4553)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 24-4553
+Argued: 2026-10-28
+Panel: Robert B. King, Julius N. Richardson, Henry F. Floyd
+Counsel: Harry Smith III, Stephen Warner</description><guid isPermaLink="false">24-4553</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/24-4553-20261028.mp3" length="36653369" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Victor Rexrode v. DOWCP (No. 24-1699)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 24-1699
+Argued: 2026-10-28
+Panel: Stephanie D. Thacker, Allison J. Rushing, Toby J. Heytens
+Counsel: Samuel Petsonk, Jeffrey Goldberg</description><guid isPermaLink="false">24-1699</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/24-1699-20261028.mp3" length="33907377" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Randle Jackson v. Anthony Hall (No. 23-2012)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 23-2012
+Argued: 2026-10-28
+Panel: Albert Diaz, Roger L. Gregory, DeAndrea Gist Benjamin
+Counsel: Joshua Hawkins, Peter Balthazor, David DeMasters</description><guid isPermaLink="false">23-2012</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/23-2012-20261028.mp3" length="54545157" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Che Lark (No. 24-4267)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 24-4267
+Argued: 2026-10-28
+Panel: Albert Diaz, Roger L. Gregory, DeAndrea Gist Benjamin
+Counsel: Richard Weston, Jennifer Herrald</description><guid isPermaLink="false">24-4267</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/24-4267-20261028.mp3" length="49271557" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Roger Day, Jr. v. US (No. 25-2053)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2053
+Argued: 2026-10-28
+Panel: Stephanie D. Thacker, Allison J. Rushing, Toby J. Heytens
+Counsel: Elliott Harding, Robert McIntosh</description><guid isPermaLink="false">25-2053</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2053-20261028.mp3" length="35307541" type="audio/mpeg"/><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Eric Keller v. Experian Information Solutions, Inc. (No. 25-2294)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2294
+Argued: 2026-10-29
+Panel: Robert B. King, Allison J. Rushing, Mark S. Davis
+Counsel: Jed Nolan, William Evans</description><guid isPermaLink="false">25-2294</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2294-20261029.mp3" length="49891456" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Henry Rogers (No. 25-4465)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4465
+Argued: 2026-10-29
+Panel: Robert B. King, Allison J. Rushing, Mark S. Davis
+Counsel: David Schles, Donald Randolph</description><guid isPermaLink="false">25-4465</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4465-20261029.mp3" length="50707456" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Taruez Everette (No. 25-4453)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4453
+Argued: 2026-10-29
+Panel: Roger L. Gregory, A. Marvin Quattlebaum Jr., Toby J. Heytens
+Counsel: Robert Parrott Jr., Sarah Nokes</description><guid isPermaLink="false">25-4453</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4453-20261029.mp3" length="62334976" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Cassity Jones (No. 25-4084)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4084
+Argued: 2026-10-29
+Panel: Albert Diaz, G. Steven Agee, Pamela A. Harris
+Counsel: Joshua Carpenter, Amy Ray</description><guid isPermaLink="false">25-4084</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4084-20261029.mp3" length="53073376" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Deanna Effland v. Baltimore Police Department (No. 25-2245)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2245
+Argued: 2026-10-29
+Panel: J. Harvie Wilkinson III, Stephanie D. Thacker, Julius N. Richardson
+Counsel: David Bana, Natalie Amato</description><guid isPermaLink="false">25-2245</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2245-20261029.mp3" length="42225376" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Pennsylvania National Mutual Casualty Insurance Co v. Generali-US Branch (No. 25-2144)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2144
+Argued: 2026-10-29
+Panel: Robert B. King, Allison J. Rushing, Mark S. Davis
+Counsel: Thomas Hale, Katrine Hyde</description><guid isPermaLink="false">25-2144</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2144-20261029.mp3" length="55073056" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Livingston Tonde v. Todd Blanche (No. 25-1967)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-1967
+Argued: 2026-10-29
+Panel: Roger L. Gregory, A. Marvin Quattlebaum Jr., Toby J. Heytens
+Counsel: Ivano Ventresca, Liza Murcia</description><guid isPermaLink="false">25-1967</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-1967-20261029.mp3" length="54212416" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Mohan Harwani v. Moses Cone Memorial Hospital (No. 25-1712)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-1712
+Argued: 2026-10-29
+Panel: Roger L. Gregory, A. Marvin Quattlebaum Jr., Toby J. Heytens
+Counsel: Mark Wigley, Matthew Leerberg</description><guid isPermaLink="false">25-1712</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-1712-20261029.mp3" length="51529216" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Jason Hurst v. Leslie Cooley-Dismukes (No. 25-0005)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-0005
+Argued: 2026-10-29
+Panel: Paul V. Niemeyer, DeAndrea Gist Benjamin, Nicole G. Berner
+Counsel: Heidi Williams, Elizabeth Hambourger</description><guid isPermaLink="false">25-0005</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-0005-20261029.mp3" length="49985056" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Donte Herring (No. 24-4437)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 24-4437
+Argued: 2026-10-29
+Panel: J. Harvie Wilkinson III, Stephanie D. Thacker, Julius N. Richardson
+Counsel: Steven Klepper, Mary Jessica Munoz</description><guid isPermaLink="false">24-4437</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/24-4437-20261029.mp3" length="63089056" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Juan Moreno Colindres v. Todd Blanche (No. 24-1533)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 24-1533
+Argued: 2026-10-29
+Panel: Albert Diaz, G. Steven Agee, Pamela A. Harris
+Counsel: Peter Alfredson, Zachary Cardin</description><guid isPermaLink="false">24-1533</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/24-1533-20261029.mp3" length="49465696" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>National Parks Conservation Association v. EPA (No. 25-2042)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2042
+Argued: 2026-10-29
+Panel: Albert Diaz, G. Steven Agee, Pamela A. Harris
+Counsel: Charles McPhedran, Joshua Smith, Christine Ennis, Holly Wilson</description><guid isPermaLink="false">25-2042</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2042-20261029.mp3" length="65853376" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Angel Vause (No. 25-4119)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4119
+Argued: 2026-10-29
+Panel: Paul V. Niemeyer, DeAndrea Gist Benjamin, Nicole G. Berner
+Counsel: Caroline Davisson, John Taddei, David Rimer</description><guid isPermaLink="false">25-4119</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4119-20261029.mp3" length="63085216" type="audio/mpeg"/><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Frederick Stuhr v. United States Army Corps of Engineers Charleston (No. 25-1843)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-1843
+Argued: 2026-10-30
+Panel: G. Steven Agee, Julius N. Richardson, Toby J. Heytens
+Counsel: William Gowder Jr., Cynthia Taub</description><guid isPermaLink="false">25-1843</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-1843-20261030.mp3" length="29043377" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>John Mullins v. National Rural Electric Cooperative Association (No. 26-1823)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 26-1823
+Argued: 2026-10-30
+Panel: J. Harvie Wilkinson III, Paul V. Niemeyer, Robert B. King
+Counsel: James Fleckner, Roland Tellis</description><guid isPermaLink="false">26-1823</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/26-1823-20261030.mp3" length="51771475" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Tiago Sousa Martins v. Todd Blanche (No. 26-1099)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 26-1099
+Argued: 2026-10-30
+Panel: Stephanie D. Thacker, A. Marvin Quattlebaum Jr., DeAndrea Gist Benjamin
+Counsel: Shana Khader, Edward Durant</description><guid isPermaLink="false">26-1099</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/26-1099-20261030.mp3" length="49727655" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>In re: Timothy Guess (No. 26-0110)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 26-0110
+Argued: 2026-10-30
+Panel: Roger L. Gregory, Pamela A. Harris, Nicole G. Berner
+Counsel: Eric Brignac, Jacqueline Bechara</description><guid isPermaLink="false">26-0110</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/26-0110-20261030.mp3" length="37921353" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Jonathan Green v. Mark Keel (No. 25-6781)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-6781
+Argued: 2026-10-30
+Panel: Roger L. Gregory, Pamela A. Harris, Nicole G. Berner
+Counsel: Adam Ruffin, Robin Jackson</description><guid isPermaLink="false">25-6781</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-6781-20261030.mp3" length="50121581" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Kenneth Nunez-Couret (No. 25-4587)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4587
+Argued: 2026-10-30
+Panel: J. Harvie Wilkinson III, Paul V. Niemeyer, Robert B. King
+Counsel: Salvatore Mancina, Lauren Beebe</description><guid isPermaLink="false">25-4587</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4587-20261030.mp3" length="32755377" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Lester Massey, Jr. (No. 25-4542)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-4542
+Argued: 2026-10-30
+Panel: G. Steven Agee, Julius N. Richardson, Toby J. Heytens
+Counsel: Stuart Berman, Mary Jessica Munoz</description><guid isPermaLink="false">25-4542</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-4542-20261030.mp3" length="40045630" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Michael Taylor v. US (No. 25-2259)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2259
+Argued: 2026-10-30
+Panel: Roger L. Gregory, Pamela A. Harris, Nicole G. Berner
+Counsel: Gregory Cui, Anna Edwards</description><guid isPermaLink="false">25-2259</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2259-20261030.mp3" length="53199328" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Hector Bonilla Bustillo v. John Roessler (No. 25-2084)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2084
+Argued: 2026-10-30
+Panel: Roger L. Gregory, Pamela A. Harris, Nicole G. Berner
+Counsel: Simon Sandoval-Moshenberg, Christian Cooper</description><guid isPermaLink="false">25-2084</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2084-20261030.mp3" length="48519230" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. George Russell, III (No. 25-2004)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2004
+Argued: 2026-10-30
+Panel: Stephanie D. Thacker, A. Marvin Quattlebaum Jr., DeAndrea Gist Benjamin
+Counsel: Sarah Welch, Paul Clement</description><guid isPermaLink="false">25-2004</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2004-20261030.mp3" length="55463622" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>John Burgess v. Nationwide Property &amp; Casualty Ins. Co. (No. 25-1198)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-1198
+Argued: 2026-10-30
+Panel: G. Steven Agee, Julius N. Richardson, Toby J. Heytens
+Counsel: Jordan Laird, Patrick Timony</description><guid isPermaLink="false">25-1198</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-1198-20261030.mp3" length="41167328" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>US v. Covia Smith (No. 24-6528)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 24-6528
+Argued: 2026-10-30
+Panel: J. Harvie Wilkinson III, Paul V. Niemeyer, Robert B. King
+Counsel: Sarah Powell, Andrew Kasper</description><guid isPermaLink="false">24-6528</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/24-6528-20261030.mp3" length="34150838" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>City of Columbus v. Robert Kennedy, Jr. (No. 26-1938)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 26-1938
+Argued: 2026-10-30
+Panel: Stephanie D. Thacker, A. Marvin Quattlebaum Jr., DeAndrea Gist Benjamin
+Counsel: Maxwell Baldi, Joel McElvain</description><guid isPermaLink="false">26-1938</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/26-1938-20261030.mp3" length="57661565" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>Nathaniel Jackson v. Michael Gilday (No. 25-2076)</title><link>https://hbomb1010.github.io/ca4-oyez</link><description>Docket: 25-2076
+Argued: 2026-10-30
+Panel: J. Harvie Wilkinson III, Paul V. Niemeyer, Robert B. King
+Counsel: John Fossum, Lowell Sturgill Jr.</description><guid isPermaLink="false">25-2076</guid><enclosure url="https://www.ca4.uscourts.gov/OAarchive/mp3/25-2076-20261030.mp3" length="44921647" type="audio/mpeg"/><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
